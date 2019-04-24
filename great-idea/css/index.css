@@ -64,3 +64,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+h1 {
+	font-size: 6rem;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 3rem;
+}
+
+nav {
+	width: 70%;
+}
+
+
+.logo {
+	vertical-align: middle;
+	width: 25%;
+}
+
+nav,
+.nav-link,
+.link-items,
+.logo {
+	display: inline-block;
+}
+
+.link-items {
+	padding: 0 1.5rem;
+}
+
+.link-items a {
+	color: #777;
+	font-size: .8rem;
+	text-decoration: none;
+}
+
+.hero {
+	padding: 3rem 0;
+}
+
+.hero-text,
+.hero-image {
+	width: 49%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.hero-text {
+	text-align: center;
+}
+
+.hero-button {
+	padding: .5rem 2rem;
+	background: transparent;
+	border: 1px solid black;
+}
+
+.content-details {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 2rem 0;
+}
+
+.features,
+.content-image,
+.about,
+.services,
+.product,
+.vision {
+	margin-bottom: 1rem;
+}
+
+.features,
+.about {
+	display: inline-block;
+	width: 49%;
+}
+
+.features {
+	margin-right: .5rem;
+}
+
+.services,
+.product,
+.vision {
+	width: 33%;
+	display: inline-block;
+}
+
+address {
+	padding-top: 2rem;
+}
+
+address p {
+	padding-top: 1rem;
+	line-height: 1.25;
+}
+
+.copy {
+	margin-top: 2rem;
+	text-align: center;
+}
