@@ -209,14 +209,11 @@ header {
 .hero {
 	margin-top: 5rem;
 	padding: 3rem 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.hero-text,
-.hero-image {
-	width: 49%;
-	display: inline-block;
-	vertical-align: middle;
-}
 
 .hero-text {
 	text-align: center;
@@ -232,6 +229,9 @@ header {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	padding: 2rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .features,
@@ -245,8 +245,7 @@ header {
 
 .features,
 .about {
-	display: inline-block;
-	width: 49%;
+	flex-basis: 48%;
 }
 
 .features {
@@ -256,8 +255,7 @@ header {
 .services,
 .product,
 .vision {
-	width: 33%;
-	display: inline-block;
+	flex-basis: 31.5%;
 }
 
 address {
